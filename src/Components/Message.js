@@ -5,8 +5,9 @@ export class Message extends Component {
   render() {
     return (
       <div>
-        Dear friends, My name is Won Maung Thein. I love golden color and I have
-        changed my background color with my favorite color.
+        Dear friends, My name is (Will add input name here). I love (input color
+        here) color and I have changed my background color with my favorite
+        color.
       </div>
     );
   }
