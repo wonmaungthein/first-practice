@@ -3,6 +3,7 @@ import { Component } from "react";
 import RadioButton from "./RadioButton";
 import { ColorPickerComponent } from "./ColorPickerComponent";
 import { Message } from "./Message";
+import { Submit } from "./Submit";
 
 export class Main extends Component {
   render() {
@@ -16,6 +17,7 @@ export class Main extends Component {
         <RadioButton />
         <h3>Favorite Color</h3>
         <ColorPickerComponent />
+        <Submit />
         <h3>Message</h3>
         <Message />
       </div>

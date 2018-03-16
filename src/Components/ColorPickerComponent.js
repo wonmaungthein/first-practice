@@ -2,12 +2,8 @@
 import React from "react";
 import ColorPicker from "react-color-picker";
 import { Component } from "react";
-
 import "react-color-picker/index.css";
-// const styles = {
-//   width: 10,
-//   height: 10
-// };
+
 export class ColorPickerComponent extends Component {
   constructor(props) {
     super(props);
@@ -43,12 +39,8 @@ export class ColorPickerComponent extends Component {
   render() {
     return (
       <div>
-        <ColorPicker defaultValue="yellow" />,
+        <ColorPicker defaultValue="yellow" width={100} />
       </div>
     );
   }
 }
-
-// export default ColorPickerComponent;
-
-// render(<App />, document.getElementById("content"));
